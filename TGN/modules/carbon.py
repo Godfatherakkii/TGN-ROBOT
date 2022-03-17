@@ -24,26 +24,18 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-@pbot.on_message(filters.command("repo"))
+@pbot.on_message(filters.command("lele"))
 async def repo(_, message):
     await message.reply_text(
-        f"""✨ **Hey I'm Emli Robot** 
-
-**Owner repo : [lusifer](https://t.me/shado_hackers)**
-**Python Version :** `{y()}`
-**Library Version :** `{o}`
-**Telethon Version :** `{s}`
-**Pyrogram Version :** `{z}`
-
-**Create your own with click button bellow.**
+        f"""✨ **Donate for GodfatherBot** 
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url="https://github.com/NoobLeechX/Emli-Robot"), 
+                        "Repo", url="Www.google.com"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/OMG_info")
+                        "Support", url="https://t.me/Shubhanshutya")
                 ]
             ]
         ),
