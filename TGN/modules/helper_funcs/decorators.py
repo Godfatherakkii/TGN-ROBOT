@@ -1,4 +1,4 @@
-from Emli.modules.disable import (
+from TGN.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
@@ -9,7 +9,7 @@ from telegram.ext import (
     InlineQueryHandler,
 )
 from telegram.ext.filters import BaseFilter
-from Emli import dispatcher as d, LOGGER
+from TGN import dispatcher as d, LOGGER
 from typing import Optional, Union, List
 
 
