@@ -9,10 +9,10 @@ from pyrogram import filters
 
 
 from aiohttp import ClientSession
-from Emli import BOT_USERNAME as bu
-from Emli import BOT_ID, pbot, arq
-from Emli.ex_plugins.chatbot import add_chat, get_session, remove_chat
-from Emli.utils.pluginhelper import admins_only, edit_or_reply
+from TGN import BOT_USERNAME as bu
+from TGN import BOT_ID, pbot, arq
+from TGN.ex_plugins.chatbot import add_chat, get_session, remove_chat
+from TGN.utils.pluginhelper import admins_only, edit_or_reply
 
 url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"
 
@@ -68,7 +68,7 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("Emli AI Was Not Activated In This Chat")
+            await lel.edit("GodfatherBot AI Was Not Activated In This Chat")
             return
         await lel.edit(f"GodfatherBot AI Deactivated by {message.from_user.mention()} for users in {message.chat.title}")
 
