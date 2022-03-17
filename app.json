@@ -1,5 +1,5 @@
 {
-      "name": "Emli Robot",
+      "name": "TGN Robot",
       "description": "A Powerful  Telegram group management bot with anime theme.",
       "keywords": [
          "telegram",
@@ -9,8 +9,8 @@
          "naorobot"
       ],
     
-   "logo":    "https://telegra.ph/file/e8baa0a32d528b548aa45.jpg",  
-   "repository": "https://github.com/NoobLeechX/EMLI",
+   "logo":    "https://telegra.ph/file/80b9c35292f4e61716c1e.jpg",  
+   "repository": "https://github.com/Godfatherakkii/TGN-ROBOT",
    "addons": [
           {
          "options": {
@@ -74,7 +74,7 @@
 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "shado_hackers"
+         "value": "Shubhanshutya"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
