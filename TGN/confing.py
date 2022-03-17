@@ -1,7 +1,7 @@
 import os
 import sys
 from envparse import env
-from Emli import LOGGER
+from TGN import LOGGER
 
 
 DEFAULTS = {
