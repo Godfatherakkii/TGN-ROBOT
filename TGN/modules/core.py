@@ -1,15 +1,15 @@
-from Emli import telethn as tbot
-from Emli.events import register
+from TGN import telethn as tbot
+from TGN.events import register
 import os
 import asyncio
 import os
 import time
 from datetime import datetime
-from Emli import OWNER_ID, DEV_USERS
-from Emli import TEMP_DOWNLOAD_DIRECTORY as path
-from Emli import TEMP_DOWNLOAD_DIRECTORY
+from TGN import OWNER_ID, DEV_USERS
+from TGN import TEMP_DOWNLOAD_DIRECTORY as path
+from TGN import TEMP_DOWNLOAD_DIRECTORY
 from datetime import datetime
-water = './Emli/resources/Emli.png'
+water = './TGN/resources/TGN.png'
 client = tbot
 
 @register(pattern=r"^/send ?(.*)")
