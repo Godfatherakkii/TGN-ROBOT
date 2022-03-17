@@ -665,7 +665,7 @@ async def lego(event):
         img = Image.open(io.BytesIO(requests.get(randc).content))
         draw = ImageDraw.Draw(img)
         image_widthz, image_heightz = img.size
-        fnt = glob.glob("./TGN/TGNlogo/*")
+        fnt = glob.glob("./TGN/tgnlogo/*")
         randf = random.choice(fnt)
         font = ImageFont.truetype(randf, 120)
         w, h = draw.textsize(text, font=font)
@@ -685,10 +685,10 @@ async def lego(event):
         fname = "TGN.png"
         img.save(fname, "png")
         await tbot.send_file(
-            event.chat_id, file=fname, caption=f"Made by @Emili_CTbot"
+            event.chat_id, file=fname, caption=f"Made by @TGN_Ro_bot"
         )
         await pesan.delete()
         if os.path.exists(fname):
             os.remove(fname)
     except Exception as e:
-        await event.reply(f"Error, Report @OMG_info, {e}")
+        await event.reply(f"Error, Report @GodfatherSupport, {e}")
