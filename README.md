@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/bfa2fbaf65ac04fad78ee.jpg">
 </p>
 
-<h1 align="center"><b> 💕 GodfatherBot Robot 💕 </b></h1>
+<h1 align="center"><b> GodfatherBot Robot  </b></h1>
 
 <h4 align="center">A Powerful, Smart And Simple Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
 <p align='center'>
