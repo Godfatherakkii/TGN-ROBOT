@@ -330,9 +330,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Support", url="https://t.me/OMG_info"),
+                                "Support", url="https://t.me/GodfatherSupport"),
                             InlineKeyboardButton(
-                                "Creator", url="https://t.me/shado_hackers")
+                                "Creator", url="https://t.me/The_Godfather_Network")
                         ],
                     ]
                 ),
@@ -348,9 +348,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Support", url="https://t.me/OMG_info"),
+                                "Support", url="https://t.me/GodfatherSupport"),
                             InlineKeyboardButton(
-                                "Creator", url="https://t.me/shado_hackers")
+                                "Creator", url="https://t.me/The_Godfather_Network")
                         ],
                     ]
                 ),
