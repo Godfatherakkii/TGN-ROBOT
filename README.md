@@ -28,7 +28,7 @@ The easiest way to deploy this Bot is via Heroku.
 
 ## CREDIT
 ```
-Shubhanshu
+Shubhanshu (Null-coder)
 Akki
 Zaid
 ```
