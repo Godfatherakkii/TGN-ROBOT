@@ -289,5 +289,5 @@ __help__ = """
 ❂ /imdb <Movie name>*:* Get full info about a movie with imdb.com
 ❂ GodfatherBot <query>*:* GodfatherBot answers the query
 
-  💡Ex: `Emili where is London?`
+  💡Ex: `Jhatu where is London?`
 """
